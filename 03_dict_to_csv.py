@@ -1,5 +1,6 @@
 import csv
 
+
 def main():
     persons = [
         {'name': 'Маша', 'age': 25, 'job': 'Scientist'},
@@ -13,6 +14,7 @@ def main():
         writer.writeheader()
         for person in persons:
             writer.writerow(person)
+
 
 if __name__ == "__main__":
     main()
